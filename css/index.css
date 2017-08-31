@@ -463,12 +463,12 @@ textarea {
 }
 
 #home {
-  display: none;
+  display: block;
   padding-bottom: 50px;
 }
 
 #impacted {
-  display: block;
+  display: none;
   padding-bottom: 50px;
 }
 
