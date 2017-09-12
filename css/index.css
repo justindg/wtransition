@@ -61,7 +61,9 @@ body {
     }
 }
 
-
+.center {
+  text-align: center;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -867,7 +869,7 @@ textarea {
 
 .links {
   width: 100%;
-  border-spacing: 20px 0px;
+  border-spacing: 200px 0px;
 }
 
 .links-container {
