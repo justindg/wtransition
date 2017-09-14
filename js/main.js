@@ -1,3 +1,10 @@
+$('input.pw').on('input',function(e){
+  if ($('.pw').val() === 'Caramello') {
+    $('.all').show();
+    $('.password').hide();
+  }
+});
+
 $('.faq-button').on('click', function() {
   // $('.modal-faq').fadeIn(200);
   var modal = document.getElementById('faq');
