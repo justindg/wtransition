@@ -1,5 +1,6 @@
 .password {
-  display: inline-block;
+  display: none;
+  /*display: inline-block;*/
   padding: 50px;
   box-sizing: border-box;
   position: absolute;
@@ -21,7 +22,7 @@
 }
 
 .all {
-  display: none;
+  /*display: none;*/
 }
 
  @font-face {
@@ -756,6 +757,12 @@ textarea {
 .acc-container {
   width: 100%;
   padding: 0px 10% 20px 10%;
+  box-sizing: border-box;
+}
+
+.acc-container2 {
+  width: 100%;
+  padding: 0px 10% 0px 10%;
   box-sizing: border-box;
 }
 
